@@ -7,14 +7,14 @@ var viewports = [
   //   'name': 'samsung-galaxy_y-landscape',
   //   'viewport': {width: 320, height: 240}
   // },
-  {
-    'name': 'iphone5-portrait',
-    'viewport': {width: 320, height: 568}
-  },
-  {
-    'name': 'iphone5-landscape',
-    'viewport': {width: 568, height: 320}
-  },
+  // {
+  //   'name': 'iphone5-portrait',
+  //   'viewport': {width: 320, height: 568}
+  // },
+  // {
+  //   'name': 'iphone5-landscape',
+  //   'viewport': {width: 568, height: 320}
+  // },
   // {
   //   'name': 'htc-one-portrait',
   //   'viewport': {width: 360, height: 640}
@@ -31,14 +31,14 @@ var viewports = [
   //   'name': 'nokia-lumia-920-landscape',
   //   'viewport': {width: 320, height: 240}
   // },
-  {
-    'name': 'google-nexus-7-portrait',
-    'viewport': {width: 603, height: 966}
-  },
-  {
-    'name': 'google-nexus-7-landscape',
-    'viewport': {width: 966, height: 603}
-  },
+  // {
+  //   'name': 'google-nexus-7-portrait',
+  //   'viewport': {width: 603, height: 966}
+  // },
+  // {
+  //   'name': 'google-nexus-7-landscape',
+  //   'viewport': {width: 966, height: 603}
+  // },
   // {
   //   'name': 'ipad-portrait',
   //   'viewport': {width: 768, height: 1024}

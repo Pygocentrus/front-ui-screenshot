@@ -1,8 +1,8 @@
-# UI scrapping capturer
+# Frontend multi viewport capturer
 
 ### Intro
 
-Weightless node script to take screenshots of your website, to test its UI according to the viewport size and the type of browser.
+Weightless NodeJS script to take screenshots of your website, to test its UI according to the viewport size and the type of browser.
 
 ### Support
 
@@ -11,7 +11,7 @@ This script allows regular and webkit simulated browsers to try different render
 ### Usage
 
 - Clone the repository. Yep, basically.  
-- Run `$ npm install`  
+- Run `$ npm install`, it will install phantomjs and casperjs if you don't have them.    
 - Fill the `viewports.js` file with the different resolutions and device name you'd like to test in both of the browsers.  
 - Then, simply run `$ node capture.js http://yourwebsite.com 2000ms`.  
 - It might take a while, go grab a coffee, but once it's done, you'll get all the desired captures in `screenshots`.  

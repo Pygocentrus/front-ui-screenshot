@@ -41,7 +41,7 @@ function cleanScreenshots() {
 
 function fetchMozilla() {
   var deferred = Q.defer();
-  mozilla = exec('./node_modules/phantomjs/bin/phantomjs mozilla.js ' + url + ' ' + timeout,
+  mozilla = exec('./node_modules/.bin/phantomjs mozilla.js ' + url + ' ' + timeout,
     function (error, stdout, stderr) {
       console.log(stdout);
       if (error !== null) {
@@ -54,7 +54,7 @@ function fetchMozilla() {
 
 function fetchChrome() {
   var deferred = Q.defer();
-  chrome = exec('./node_modules/casperjs/bin/casperjs chrome.js ' + url + ' ' + timeout,
+  chrome = exec('./node_modules/.bin/casperjs chrome.js ' + url + ' ' + timeout,
     function (error, stdout, stderr) {
       console.log(stdout);
       if (error !== null) {
